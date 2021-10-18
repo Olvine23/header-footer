@@ -1,0 +1,20 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction:column;
+}
+.footer{
+    margin-top: auto;
+}
+
+.main{
+    margin:0 auto;
+    color:blueviolet;
+    max-width:80ch;
+}
+.list{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns:repeat(auto-fit, minmax(20ch, 1fr))
+
+}
