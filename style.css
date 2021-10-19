@@ -51,10 +51,44 @@
      background-color: teal;
      padding: 0.25rem;
  }
- 
+ .gallery{
+     list-style: none;
+     margin:0;
+     padding:0;
+     display: grid;
+     grid-gap:2rem;
+     grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+     width: 100%;
+     max-width: calc(40ch * 3 + 6rem);
+ }
+ .gallery-card{
+     display: grid;
+     overflow: hidden;
+     height: 40vh;
+     border: 1px solid #c9c9c9;
+     border-radius: 7px;
+     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+ }
+ .gallery-card-img{
+     object-fit: cover;
+     width: 100%;
+     height:40vh;
+     display: block;
+ }
+h2{
+    text-align: center;
+}
+ .gallery-card-img-3{
+    object-fit: cover;
+    width: 100%;
+    height:60vh;
+    display: block;
+}
  .footer{
      margin-top: auto;
      background-color:teal;
+     padding: 15px;
+     height :auto;
  }
  .bubble{
      object-fit: cover;
