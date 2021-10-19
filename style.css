@@ -11,6 +11,7 @@
      margin-top: 50px;
      text-align: end;
  }
+
   
  .nav a{
      text-transform: uppercase;
@@ -18,6 +19,14 @@
      /* margin-top: 100ch;  */
       
  }
+ .card{
+     max-width: 40ch;
+ }
+ .card_img {
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 62.5%;
+  }
  .main
  {
      
