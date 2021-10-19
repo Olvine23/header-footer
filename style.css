@@ -5,6 +5,7 @@
      flex-direction: column;
      margin: 0 auto;
      max-width:100ch;
+     padding: 20px;
  }
  .nav{
      margin-top: 50px;
