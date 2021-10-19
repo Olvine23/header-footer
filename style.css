@@ -12,7 +12,13 @@
      text-align: end;
  }
 
-  
+  .cards{
+      display: flex;
+      
+  }
+  .cards article{
+      padding: 20px;
+      }
  .nav a{
      text-transform: uppercase;
      padding:33px;
@@ -35,4 +41,12 @@
  .footer{
      margin-top: auto;
      background-color:teal;
+ }
+
+ @media screen and (max-width:500px) {
+     .cards{
+         display:flex;
+         flex-direction:column;
+     }
+     
  }
