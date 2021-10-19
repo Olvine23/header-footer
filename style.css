@@ -1,21 +1,28 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction:column;
-}\
-.footer{
-    margin-top: auto;
-}
-
-.main{
-    margin:0 auto;
-    color:blueviolet;
-    font-size: 1.5rem;
-    max-width:80ch;
-}
-.list{
-    display: grid;
-    grid-gap:1rem;
-    grid-template-columns:repeat(auto-fit, minmax(20ch, 1fr))
-
-}
+ body{
+     font-family: sans-serif;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     margin: 0 auto;
+     max-width:100ch;
+ }
+ .nav{
+     margin-top: 50px;
+     text-align: end;
+ }
+  
+ .nav a{
+     text-transform: uppercase;
+     padding:33px;
+     /* margin-top: 100ch;  */
+      
+ }
+ .main
+ {
+     
+     line-height:1.5rem;
+ }
+ .footer{
+     margin-top: auto;
+     background-color:teal;
+ }
